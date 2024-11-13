@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on From dropdown]]>
+    </line>
+    <line>
+      <![CDATA[enter city name in From dropdown and select]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on To dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entered city name in To dropdown and selected]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on class dropdown and select any class]]>
+    </line>
+    <line>
+      <![CDATA[user should click on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Quick Filters should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[User should click on Live Train Status]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on TrainNumberOrName]]>
+    </line>
+    <line>
+      <![CDATA[User enters Train Number in TrainNumberOrName dropdown and select]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Check PNR Status]]>
+    </line>
+    <line>
+      <![CDATA[The input field is visible as expected.]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: 9887655443]]>
+    </line>
+    <line>
+      <![CDATA[click on Check Status]]>
+    </line>
+    <line>
+      <![CDATA[it should navigate to the PNR Status Page]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (a9b54ceeb8a9af3ebacecabed538ab54)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Check PNR Status]]>
+    </line>
+    <line>
+      <![CDATA[The input field is visible as expected.]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: 8976254342]]>
+    </line>
+    <line>
+      <![CDATA[click on Check Status]]>
+    </line>
+    <line>
+      <![CDATA[it should navigate to the PNR Status Page]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (47835a8717323c6c4a23a3406c07c313)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Check PNR Status]]>
+    </line>
+    <line>
+      <![CDATA[The input field is visible as expected.]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: 8765243292]]>
+    </line>
+    <line>
+      <![CDATA[click on Check Status]]>
+    </line>
+    <line>
+      <![CDATA[it should navigate to the PNR Status Page]]>
+    </line>
+    <line>
+      <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (9ca48f615c89864bd675b50ab194abf9)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on From dropdown]]>
+    </line>
+    <line>
+      <![CDATA[enter city name in From dropdown and select]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on To dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entered city name in To dropdown and selected]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on class dropdown and select any class]]>
+    </line>
+    <line>
+      <![CDATA[user should click on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Quick Filters should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on AC checkBox]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on AC trains]]>
+    </line>
+    <line>
+      <![CDATA[user should click on OK! GO AHead button and it should navigate to Train Booking Page]]>
+    </line>
+    <line>
+      <![CDATA[Select Travellers should display]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on From dropdown]]>
+    </line>
+    <line>
+      <![CDATA[enter city name in From dropdown and select]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on To dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entered city name in To dropdown and selected]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on class dropdown and select any class]]>
+    </line>
+    <line>
+      <![CDATA[user should click on Search button]]>
+    </line>
+    <line>
+      <![CDATA[Quick Filters should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Available checkBox]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Available trains]]>
+    </line>
+    <line>
+      <![CDATA[user should click on OK! GO AHead button and it should navigate to Train Booking Page]]>
+    </line>
+    <line>
+      <![CDATA[Select Travellers should display]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on View All and Filters Page is visible]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Trains Options]]>
+    </line>
+    <line>
+      <![CDATA[user clicks on Trains icon]]>
+    </line>
+    <line>
+      <![CDATA[user should be navigated to the offer page]]>
+    </line>
+    <line>
+      <![CDATA[Browser should be Launched and URL should be navigated]]>
+    </line>
+    <line>
+      <![CDATA[user is able to click on Trains link]]>
+    </line>
+    <line>
+      <![CDATA[Trains page should be open]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:03:48 IST" name="Default suite" finished-at="2024-11-13T13:06:05 IST" duration-ms="137926">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T13:03:48 IST" name="Default test" finished-at="2024-11-13T13:06:05 IST" duration-ms="137926">
+      <class name="runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:03:48 IST" name="setUpClass" finished-at="2024-11-13T13:03:48 IST" duration-ms="657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4604e051]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:03:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:04:08 IST" duration-ms="19381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to click on Book Train Tickets"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BookTrainTickets"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on From dropdown]]>
+            </line>
+            <line>
+              <![CDATA[enter city name in From dropdown and select]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on To dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Entered city name in To dropdown and selected]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on class dropdown and select any class]]>
+            </line>
+            <line>
+              <![CDATA[user should click on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Quick Filters should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:04:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:04:20 IST" duration-ms="12707" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to click on Live Train Status"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["LiveTrainStatus"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label data-cy="selectStation" for="userStationCode" class="latoRegular makeFlex column">...</label> is not clickable at point (695, 298). Other element would receive the click: <li data-cy="RailTravellingStop_347">...</li>
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [898e1ca299c9ef98e12994fe4936f55f, clickElement {id=f.D5A4D381D9329CA256892F6DBA4E6C34.d.ABA2349534FE36DD1A3C4184761ACD83.e.7400}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62882/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (898e1ca299c9ef98e12994fe4936f55f)] -> xpath: //label[contains(@class,'lato') and @data-cy='selectStation']]
+Session ID: 898e1ca299c9ef98e12994fe4936f55f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label data-cy="selectStation" for="userStationCode" class="latoRegular makeFlex column">...</label> is not clickable at point (695, 298). Other element would receive the click: <li data-cy="RailTravellingStop_347">...</li>
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [898e1ca299c9ef98e12994fe4936f55f, clickElement {id=f.D5A4D381D9329CA256892F6DBA4E6C34.d.ABA2349534FE36DD1A3C4184761ACD83.e.7400}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62882/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (898e1ca299c9ef98e12994fe4936f55f)] -> xpath: //label[contains(@class,'lato') and @data-cy='selectStation']]
+Session ID: 898e1ca299c9ef98e12994fe4936f55f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at stepDefinition.LiveTrainStatus.user_clicks_on_your_stop_dropdown_and_select_any_stop(LiveTrainStatus.java:61)
+at ✽.user clicks on Your Stop dropdown and select any Stop(file:///C:/Users/DELL/eclipse-workspace/MakeMyTrip/./src/test/resources/featureFiles/LiveTrainStatus.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[User should click on Live Train Status]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on TrainNumberOrName]]>
+            </line>
+            <line>
+              <![CDATA[User enters Train Number in TrainNumberOrName dropdown and select]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:04:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:04:30 IST" duration-ms="10130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate when user enters their phone number in Check PNR Status without booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PNR Status"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Check PNR Status]]>
+            </line>
+            <line>
+              <![CDATA[The input field is visible as expected.]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: 9887655443]]>
+            </line>
+            <line>
+              <![CDATA[click on Check Status]]>
+            </line>
+            <line>
+              <![CDATA[it should navigate to the PNR Status Page]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (a9b54ceeb8a9af3ebacecabed538ab54)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:04:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:04:42 IST" duration-ms="11118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate when user enters their phone number in Check PNR Status without booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PNR Status"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Check PNR Status]]>
+            </line>
+            <line>
+              <![CDATA[The input field is visible as expected.]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: 8976254342]]>
+            </line>
+            <line>
+              <![CDATA[click on Check Status]]>
+            </line>
+            <line>
+              <![CDATA[it should navigate to the PNR Status Page]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (47835a8717323c6c4a23a3406c07c313)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:04:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:04:56 IST" duration-ms="14252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate when user enters their phone number in Check PNR Status without booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check PNR Status"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Check PNR Status]]>
+            </line>
+            <line>
+              <![CDATA[The input field is visible as expected.]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: 8765243292]]>
+            </line>
+            <line>
+              <![CDATA[click on Check Status]]>
+            </line>
+            <line>
+              <![CDATA[it should navigate to the PNR Status Page]]>
+            </line>
+            <line>
+              <![CDATA[User enters their phone number: [[ChromeDriver: chrome on windows (9ca48f615c89864bd675b50ab194abf9)] -> xpath: //p[contains(text(),'This PNR')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:04:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:05:22 IST" duration-ms="26270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user able to book AC train in Quick Filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Quick Filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on From dropdown]]>
+            </line>
+            <line>
+              <![CDATA[enter city name in From dropdown and select]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on To dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Entered city name in To dropdown and selected]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on class dropdown and select any class]]>
+            </line>
+            <line>
+              <![CDATA[user should click on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Quick Filters should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on AC checkBox]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on AC trains]]>
+            </line>
+            <line>
+              <![CDATA[user should click on OK! GO AHead button and it should navigate to Train Booking Page]]>
+            </line>
+            <line>
+              <![CDATA[Select Travellers should display]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:05:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:05:43 IST" duration-ms="21120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user able to book Available train in Quick Filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Quick Filters"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on From dropdown]]>
+            </line>
+            <line>
+              <![CDATA[enter city name in From dropdown and select]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on To dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Entered city name in To dropdown and selected]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Travel Date dropdown and select any date]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on class dropdown and select any class]]>
+            </line>
+            <line>
+              <![CDATA[user should click on Search button]]>
+            </line>
+            <line>
+              <![CDATA[Quick Filters should be displayed]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Available checkBox]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Available trains]]>
+            </line>
+            <line>
+              <![CDATA[user should click on OK! GO AHead button and it should navigate to Train Booking Page]]>
+            </line>
+            <line>
+              <![CDATA[Select Travellers should display]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:05:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:05:58 IST" duration-ms="14889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to navigate to the Train Offers Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TrainOffers"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on View All and Filters Page is visible]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Trains Options]]>
+            </line>
+            <line>
+              <![CDATA[user clicks on Trains icon]]>
+            </line>
+            <line>
+              <![CDATA[user should be navigated to the offer page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:05:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T13:06:05 IST" duration-ms="6652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to click on Trains link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Trains"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser should be Launched and URL should be navigated]]>
+            </line>
+            <line>
+              <![CDATA[user is able to click on Trains link]]>
+            </line>
+            <line>
+              <![CDATA[Trains page should be open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CucumberRunner@38102d01]" started-at="2024-11-13T13:06:05 IST" name="tearDownClass" finished-at="2024-11-13T13:06:05 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,330 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 13:03:48 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>137 seconds (137926 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to click on Live Train Status", "LiveTrainStatus"<br/>
+<a href="#Output-1682586333" onClick='toggleBox("Output-1682586333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1682586333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1682586333">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+User should click on Live Train Status<br/>
+User clicks on TrainNumberOrName<br/>
+User enters Train Number in TrainNumberOrName dropdown and select<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label data-cy=&quot;selectStation&quot; for=&quot;userStationCode&quot; class=&quot;latoRegular makeFlex column&quot;&gt;...&lt;/label&gt; is not clickable at point (695, 298). Other element would receive the click: &lt;li data-cy=&quot;RailTravellingStop_347&quot;&gt;...&lt;/li&gt;
+  (Session info: chrome=130.0.6723.69)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [898e1ca299c9ef98e12994fe4936f55f, clickElement {id=f.D5A4D381D9329CA256892F6DBA4E6C34.d.ABA2349534FE36DD1A3C4184761ACD83.e.7400}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62882/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (898e1ca299c9ef98e12994fe4936f55f)] -&gt; xpath: //label[contains(@class,&apos;lato&apos;) and @data-cy=&apos;selectStation&apos;]]
+Session ID: 898e1ca299c9ef98e12994fe4936f55f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinition.LiveTrainStatus.user_clicks_on_your_stop_dropdown_and_select_any_stop(LiveTrainStatus.java:61)
+	at ✽.user clicks on Your Stop dropdown and select any Stop(file:///C:/Users/DELL/eclipse-workspace/MakeMyTrip/./src/test/resources/featureFiles/LiveTrainStatus.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1682586333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1682586333'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label data-cy=&quot;selectStation&quot; for=&quot;userStationCode&quot; class=&quot;latoRegular makeFlex column&quot;&gt;...&lt;/label&gt; is not clickable at point (695, 298). Other element would receive the click: &lt;li data-cy=&quot;RailTravellingStop_347&quot;&gt;...&lt;/li&gt;
+  (Session info: chrome=130.0.6723.69)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [898e1ca299c9ef98e12994fe4936f55f, clickElement {id=f.D5A4D381D9329CA256892F6DBA4E6C34.d.ABA2349534FE36DD1A3C4184761ACD83.e.7400}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62882/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (898e1ca299c9ef98e12994fe4936f55f)] -&gt; xpath: //label[contains(@class,&apos;lato&apos;) and @data-cy=&apos;selectStation&apos;]]
+Session ID: 898e1ca299c9ef98e12994fe4936f55f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at stepDefinition.LiveTrainStatus.user_clicks_on_your_stop_dropdown_and_select_any_stop(LiveTrainStatus.java:61)
+	at ✽.user clicks on Your Stop dropdown and select any Stop(file:///C:/Users/DELL/eclipse-workspace/MakeMyTrip/./src/test/resources/featureFiles/LiveTrainStatus.feature:13)
+</pre></div></td>
+<td>12</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate when user enters their phone number in Check PNR Status without booking", "Check PNR Status"<br/>
+<a href="#Output-2133547083" onClick='toggleBox("Output-2133547083", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133547083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133547083">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on Check PNR Status<br/>
+The input field is visible as expected.<br/>
+User enters their phone number: 8976254342<br/>
+click on Check Status<br/>
+it should navigate to the PNR Status Page<br/>
+User enters their phone number: [[ChromeDriver: chrome on windows (47835a8717323c6c4a23a3406c07c313)] -> xpath: //p[contains(text(),'This PNR')]]<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to click on Trains link", "Trains"<br/>
+<a href="#Output-1950554162" onClick='toggleBox("Output-1950554162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1950554162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1950554162">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate when user enters their phone number in Check PNR Status without booking", "Check PNR Status"<br/>
+<a href="#Output-1901494067" onClick='toggleBox("Output-1901494067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1901494067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1901494067">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on Check PNR Status<br/>
+The input field is visible as expected.<br/>
+User enters their phone number: 8765243292<br/>
+click on Check Status<br/>
+it should navigate to the PNR Status Page<br/>
+User enters their phone number: [[ChromeDriver: chrome on windows (9ca48f615c89864bd675b50ab194abf9)] -> xpath: //p[contains(text(),'This PNR')]]<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate when user enters their phone number in Check PNR Status without booking", "Check PNR Status"<br/>
+<a href="#Output-33238764" onClick='toggleBox("Output-33238764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33238764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33238764">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on Check PNR Status<br/>
+The input field is visible as expected.<br/>
+User enters their phone number: 9887655443<br/>
+click on Check Status<br/>
+it should navigate to the PNR Status Page<br/>
+User enters their phone number: [[ChromeDriver: chrome on windows (a9b54ceeb8a9af3ebacecabed538ab54)] -> xpath: //p[contains(text(),'This PNR')]]<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user able to book Available train in Quick Filters", "Quick Filters"<br/>
+<a href="#Output-554055165" onClick='toggleBox("Output-554055165", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554055165" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554055165">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on From dropdown<br/>
+enter city name in From dropdown and select<br/>
+user clicks on To dropdown<br/>
+Entered city name in To dropdown and selected<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on class dropdown and select any class<br/>
+user should click on Search button<br/>
+Quick Filters should be displayed<br/>
+user clicks on Available checkBox<br/>
+user clicks on Available trains<br/>
+user should click on OK! GO AHead button and it should navigate to Train Booking Page<br/>
+Select Travellers should display<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to navigate to the Train Offers Page", "TrainOffers"<br/>
+<a href="#Output-1793335880" onClick='toggleBox("Output-1793335880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1793335880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1793335880">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+User clicks on View All and Filters Page is visible<br/>
+user clicks on Trains Options<br/>
+user clicks on Trains icon<br/>
+user should be navigated to the offer page<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to click on Book Train Tickets", "BookTrainTickets"<br/>
+<a href="#Output-265556987" onClick='toggleBox("Output-265556987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265556987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265556987">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on From dropdown<br/>
+enter city name in From dropdown and select<br/>
+user clicks on To dropdown<br/>
+Entered city name in To dropdown and selected<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on class dropdown and select any class<br/>
+user should click on Search button<br/>
+Quick Filters should be displayed<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user able to book AC train in Quick Filters", "Quick Filters"<br/>
+<a href="#Output-1805672623" onClick='toggleBox("Output-1805672623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1805672623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1805672623">
+Browser should be Launched and URL should be navigated<br/>
+user is able to click on Trains link<br/>
+Trains page should be open<br/>
+user clicks on From dropdown<br/>
+enter city name in From dropdown and select<br/>
+user clicks on To dropdown<br/>
+Entered city name in To dropdown and selected<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on Travel Date dropdown and select any date<br/>
+user clicks on class dropdown and select any class<br/>
+user should click on Search button<br/>
+Quick Filters should be displayed<br/>
+user clicks on AC checkBox<br/>
+user clicks on AC trains<br/>
+user should click on OK! GO AHead button and it should navigate to Train Booking Page<br/>
+Select Travellers should display<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+</body>
+</html>
